@@ -1,17 +1,29 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import NowStatusFooter from './components/NowStatusFooter.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <header>
+    <nav class="navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">OHM TWINCIRCUIT</a>
+    </nav>
+  </header>
+
+  <div class="d-flex align-items-center" style="height: 30vh">
+    <div class="text-center w-100">
+      <div style="font-size: 5vh">2023/03/08 15:00:00</div>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+
+  <div class="d-flex align-items-center" style="height: 20vh">
+    <div class="text-center w-100">
+      <div class="mt-5" style="font-size: 30vh">09:59:59</div>
+    </div>
+  </div>
+
+
+  <NowStatusFooter />
+  
 </template>
 
 <style scoped>
