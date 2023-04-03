@@ -1,6 +1,6 @@
 <template>
 
-  <div class="d-flex align-items-center" style="height: 20vh">
+  <div class="d-flex align-items-center" style="height: 20vmin">
     <div class="text-center w-100">
       <div class="mt-5" id="cout_down" style="">{{ countDown }}</div>
     </div>
