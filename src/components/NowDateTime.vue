@@ -2,7 +2,7 @@
 
   <div class="d-flex align-items-center" style="height: 30vh">
     <div class="text-center w-100">
-      <div style="font-size: 5vh">{{ now_datetime }}</div>
+      <div style="font-size: 5vw">{{ now_datetime }}</div>
     </div>
   </div>
   

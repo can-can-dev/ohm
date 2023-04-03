@@ -2,11 +2,17 @@
 
   <div class="d-flex align-items-center" style="height: 20vh">
     <div class="text-center w-100">
-      <div class="mt-5" style="font-size: 30vh">{{ countDown }}</div>
+      <div class="mt-5" id="cout_down" style="">{{ countDown }}</div>
     </div>
   </div>
   
 </template>
+
+<style>
+#cout_down {
+  font-size: 34vmin;
+}
+</style>
 
 <script>
 import dayjs from 'dayjs';
