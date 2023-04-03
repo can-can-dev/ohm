@@ -21,6 +21,9 @@ import duration from 'dayjs/plugin/duration'
 dayjs.extend(duration)
 
 export default {
+  props: {
+    isBlink: Boolean,
+  },
   data() {
     return {
       countDown: '',
@@ -52,6 +55,13 @@ export default {
       let minutes = diff.minutes().toString().padStart(2, '0');
       let seconds = diff.seconds().toString().padStart(2, '0');
       this.countDown = `${minutes}:${seconds}`;
+
+      // 00:30を切ったら背景点滅
+      if (diff.minutes() == 0 && diff.seconds() < 30) {
+        this.$emit('setBlink', true)
+      } else{
+        this.$emit('setBlink', false)
+      }
     },
   },
 }
