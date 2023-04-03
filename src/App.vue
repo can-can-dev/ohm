@@ -3,7 +3,7 @@
 <template>
   <header>
     <nav class="navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">OHM TWINCIRCUIT</a>
+      <span class="navbar-brand">OHM TWINCIRCUIT</span>
     </nav>
   </header>
 

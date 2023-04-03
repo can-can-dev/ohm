@@ -2,7 +2,7 @@
   <div class="fixed-bottom">
     <div class="row">
 
-      <div class="col p-0 border ">
+      <div class="col-12 col-sm-6 p-0 border ">
         <div class="bg-secondary border-bottom">
           <label class="text-white">オンロード</label>
         </div>
@@ -11,7 +11,7 @@
         </div>
       </div>
 
-      <div class="col p-0 border">
+      <div class="col-12 col-sm-6 p-0 border">
         <div class="bg-secondary border-bottom">
           <label class="text-white">オフロード</label>
         </div>
